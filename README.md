@@ -18,9 +18,9 @@
 ## Overview
 Open set recognition (OSR) requires models to classify known samples while detecting unknowns. Current methods use auxiliary datasets to regularize OSR models but are sensitive to outlier selection. We propose a new perspective: **Can we regularize OSR models without carefully chosen outliers?** Our analysis reveals that: 
 
-1) correlated backgrounds mislead models on 'partially' known images; 
+1) Correlated backgrounds mislead models on 'partially' known images; 
 
-2) unrelated backgrounds can serve as natural outliers. 
+2) Unrelated backgrounds can serve as natural outliers. 
 
 Based on this, we propose **Background Mix (BackMix)**, which mixes image foregrounds (estimated via CAMs) with random backgrounds to break fore-background correlations. This simple yet effective method improves OSR performance without inference overhead and integrates easily with existing frameworks.
 
