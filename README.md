@@ -32,7 +32,7 @@ BackMix first **estimates and masks the foreground of the background image**, th
   <tr>
     <td align="center" width="450">
       <video 
-        src="./assets/backmix.mp4" 
+        src="https://github.com/user-attachments/assets/f6bb9965-a852-4258-9806-f8146338b567" 
         controls 
         style="max-width:100%;">
       </video>
